@@ -1,0 +1,110 @@
+/* Grundlegendes Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body-Stile */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f7fc;
+  color: #333;
+  padding: 20px;
+}
+
+/* Container für das gesamte Layout */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Container für das Login/Registrierungsformular */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Formulareingaben */
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Login/Registrierung-Schaltfläche */
+button {
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Error-Nachricht */
+.error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Überschrift und allgemeine Seitenstile */
+h1, h2, h3 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* Dashboard und Projektübersicht */
+.project-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.project-list li {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 5px 0;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-list li:hover {
+  background-color: #f1f1f1;
+}
+
+.project-list li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.dashboard {
+  text-align: center;
+}
+
+/* Allgemeines Layout für Seiten */
+.page {
+  padding: 20px;
+}
+
